@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'cosmetics',
     'alexa',
     'google',
+    'naver',
 ]
 
 MIDDLEWARE = [

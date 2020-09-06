@@ -20,9 +20,19 @@ from django.urls import path
 from users.views import (
     UsersListAPI, UsersDetailAPI,
 )
+from alexa.views import (
+    AutheListAPI, AutheDetailAPI,
+)
+from naver.views import (
+    AIAListAPI, AIADetailAPI,
+)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('users/', UsersListAPI.as_view()),
     path('users/<int:pk>/', UsersDetailAPI.as_view()),
+    path('auth/', AutheListAPI.as_view()),
+    path('auth/<int:pk>/', AutheDetailAPI.as_view()),
+    path('aianalysis/', AIAListAPI.as_view()),
+    path('aianalysis/<int:pk>/', AIADetailAPI.as_view()),
 ]  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
