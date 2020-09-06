@@ -254,3 +254,5 @@
 35.197.153.253 - admin [06/Sep/2020:10:25:08 +0900] "GET /tmpfs/snap.jpg HTTP/1.1" 404 1057 "-" "Python/3.6 aiohttp/3.6.0" "-"
 35.197.153.253 - user [06/Sep/2020:10:25:08 +0900] "GET /tmpfs/snap.jpg HTTP/1.1" 404 1057 "-" "Python/3.6 aiohttp/3.6.0" "-"
 35.197.153.253 - user [06/Sep/2020:10:25:09 +0900] "GET /tmpfs/snap.jpg HTTP/1.1" 404 1057 "-" "Python/3.6 aiohttp/3.6.0" "-"
+54.198.55.229 - - [06/Sep/2020:10:47:26 +0900] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214 "-" "Mozilla/5.0 (compatible)" "-"
+54.198.55.229 - - [06/Sep/2020:10:50:56 +0900] "GET /admin/login.asp HTTP/1.1" 404 4888 "-" "Mozilla/5.0 (compatible)" "-"
